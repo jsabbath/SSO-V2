@@ -48,6 +48,8 @@ li:hover {
 
 .menu .menu-item div:hover {
 	width: 120%;
+	margin-left: -10%;
+	margin-top: -5%;
 }
 .menu .menu-item:last-child {
 	margin: 0;
