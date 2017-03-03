@@ -19,27 +19,38 @@ li {
 	margin-left: 5%;
 }
 li:hover {
-	border: 2px solid grey;
+	box-shadow: 1px 1px 1px black;
 }
-#iconos img {
+
+.iconos{
+	overflow: hidden;
+}
+
+.iconos img {
 	width: 50%;
 }
-#iconos div {
+.iconos div {
 	display: inline-block;
 	width: 10%;
 	margin-right: 8%;
 	text-align: center;
+	border: 2px solid white;
+	transition: all .3s ease;
+	height: 10em;
+	padding-top: 2em;
 }
-#iconos div:hover {
-	border: 2px solid grey;
+.iconos div:hover {
+	width: 13%;
+	border-color: black;
+	padding-top: 1em;
 }
-#iconos div:last-child {
+.iconos div:last-child {
 	margin: 0;
 }
-#iconos div:first-child img {
+.iconos div:first-child img {
 	width: 40%;
 }
-#iconos {
+.iconos {
 	width: 100%;
 	display: inline-block;
 	margin-top: 220px;
