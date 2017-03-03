@@ -29,7 +29,13 @@ li:hover {
 
 .menu img {
 	width: 50%;
+	background-color: inherit;
 }
+
+.menu *{
+	background-color: transparent;
+}
+
 .menu .menu-item {
 	float: left;
 	width: 13%;
@@ -37,7 +43,7 @@ li:hover {
 	text-align: center;
 	height: 10em;
 	padding-top: 2em;
-
+	cursor: pointer;
 }
 
 .menu .menu-item div {
@@ -51,6 +57,11 @@ li:hover {
 	margin-left: -10%;
 	margin-top: -5%;
 }
+
+.menu .menu-item:hover {
+	background-color: rgba(255, 255, 255, 0.12)
+}
+
 .menu .menu-item:last-child {
 	margin: 0;
 }
