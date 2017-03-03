@@ -77,14 +77,23 @@ li:hover {
 	display: inline-block;
 	width: 49%;
 }
-#logo {
-	display: inline-block;
-	width: 49%;
+
+#title h1
+{
+	margin-left: 40px;
+	letter-spacing: 8px;
 }
+
+
 #sso {
-	width: 20%;
-	margin-left: 80%;
+	display:inline-block;
+	width: 15%;
+	margin-left: 30px;
+	
 }
+
+
+
 #sidebar {
 	display: inline-block;
 	width: 30%;
