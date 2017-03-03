@@ -43,14 +43,11 @@ li:hover {
 .menu .menu-item div {
 	width: 100%;
 	height: 100%;
-
-	border: 2px solid white;
 	transition: all .3s ease;
 }
 
 .menu .menu-item div:hover {
 	width: 120%;
-	border-color: black;
 }
 .menu .menu-item:last-child {
 	margin: 0;
