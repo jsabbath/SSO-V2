@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+html {
+	font-family: 'Montserrat-Regular';
+}
+body {
+	padding-top: 12%;
+	background: url('../img/1361333743928.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+p {
+	text-align: center;
+}
+.form-input {
+	overflow: hidden;
+	margin-top: 15px;
+}
+.form-input > * {
+	vertical-align: top;
+}
+.form-input label {
+	border: 1px solid black;
+	float: left;
+	height: 40px;
+	width: 15%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	position: relative;
+}
+.form-input label img {
+	position: relative;
+	top: 5px;
+	width: 100%;
+}
+.form-input input {
+	width: 85%;
+	border: none;
+	border-bottom: 1px solid white;
+	padding: 13px;
+	float: left;
+	background-color: transparent;
+}
+::-webkit-input-placeholder {
+	color: white;
+}
+#login {
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	display: block;
+	background-color: transparent;
+	overflow: hidden;
+	padding-bottom: 4%;
+}
+#login form {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+}
+#login button {
+	width: 95%;
+	border: none;
+	background-color: #A782A9;
+	color: white;
+	margin-top: 20px;
+	padding: 4%;
+}
+#sso {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+}
+.cuadro-left, .cuadro-right {
+	width: 49%;
+	position: absolute;
+}
+.cuadro-left {
+	left: 0;
+	top: 35%;
+	border-right: 5px solid white;
+}
+.cuadro-right {
+	top: 35%;
+	right: 0;
+	padding-top: 2%;
+}

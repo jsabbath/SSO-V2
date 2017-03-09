@@ -1,5 +1,5 @@
 <?php 
 
-echo "oli!";
+require_once "public/home.html"
 
  ?>
