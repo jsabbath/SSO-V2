@@ -14,3 +14,10 @@ function elementdom (selector){
 	var selector = document.querySelectorAll(selector);
 	console.log(selector);
 }
+
+function applyStyle(element, style){
+    
+    Object.keys(style).forEach(function(key){
+        element.style[key] = style[key];
+    });
+}
